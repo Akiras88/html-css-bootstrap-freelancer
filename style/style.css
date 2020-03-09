@@ -112,7 +112,7 @@ h2 {
 #portfolio .container h2 {
   font-size: 50px;
 }
-.hover-plus:hover {
+.hover-plus img:hover {
   background: #4FB99F;
 }
 /* about style */
