@@ -1,7 +1,42 @@
-/* style navbar */
+body {
+  padding-top: 70px;
+}
+/* common style */
+.white {
+  color: #fff;
+}
+.line {
+  position: relative;
+  padding-bottom: 20px;
+
+}
+.line::before {
+  content: '';
+  position: absolute;
+  bottom: 30px;
+  left: 29%;
+  width: 18%;
+  height: 4px;
+  transform: translateY(-67%);
+  background: #fff;
+}
+.line::after {
+  content: '';
+  position: absolute;
+  bottom: 30px;
+  right: 29%;
+  width: 18%;
+  height: 4px;
+  transform: translateY(-67%);
+  background: #fff;
+}
+
+
+/* navbar style*/
 .navbar {
   height: 88px;
   background-color: #2c3e50;
+  border: 1px solid #000;
 }
 .navbar-default .navbar-brand{
   color: #fff;
@@ -23,7 +58,17 @@
   color: green;
 }
 
-/* utilites */
-.white {
+/* jumbotron style */
+.jumbotron{
+  background: #1ABC9C;
+}
+.container img {
+  height: 260px;
+}
+.jumbotron h1 {
   color: #fff;
+}
+.glyphicon {
+  text-align: center;
+  font-size: 35px;
 }
