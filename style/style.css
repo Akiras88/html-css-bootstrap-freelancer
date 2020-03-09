@@ -33,6 +33,9 @@ body {
   transform: translateY(-67%);
   background: #fff;
 }
+.size {
+  font-size: 20px;
+}
 /* line black style */
 .line-black {
   position: relative;
@@ -107,4 +110,19 @@ body {
 }
 .hover-plus:hover {
   background: #4FB99F;
+}
+/* about style */
+#about .col-xs-12 h2{
+  font-size: 50px;
+  padding-top: 90px;
+}
+.ms_btn-border-white {
+  border: 1px solid #fff;
+  color: white;
+}
+.glyphicon-download-alt {
+  font-size: 20px;
+}
+#about .button {
+  padding: 50px;
 }
