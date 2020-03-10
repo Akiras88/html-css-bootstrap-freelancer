@@ -109,6 +109,7 @@ h2 {
 
 /* MAIN STYLE */
 /* portfolio style */
+
 #portfolio .container h2 {
   font-size: 50px;
 }
@@ -160,6 +161,39 @@ h2 {
   color: white;
   text-decoration: none;
   padding: 10px 16px;
+}
+/* hover effect */
+.hover-plus {
+  position: relative;
+}
+.img-rounded {
+  display: block;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.hover-plus:hover .overlay {
+  opacity: 1;
+}
+.plus {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* FOOTER STYLE */
